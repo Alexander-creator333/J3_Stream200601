@@ -36,6 +36,7 @@ public class ArrayTest {
     @MethodSource("inFirst")
     public void testFirst(int[] a1, int[] a2) throws BadFormat {
         Assertions.assertArrayEquals(a2, ArrParr.first(a1));
+
     }
 
     /*  Написать метод, который проверяет состав массива из чисел 1 и 4. Если в нем нет хоть одной четверки или единицы, то метод вернет false; Написать набор тестов для этого метода (по 3-4 варианта входных данных).
